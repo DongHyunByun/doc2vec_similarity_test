@@ -21,4 +21,5 @@
     3. 3.similarity_test  
         **[ input file : doc2vec_morph.model ]**
         - 2.에서 학습한 모델을 이용하여 문장의 유사도 확인
-        
+    4. model_by_class.ipynb
+        - 형태소 분석을 따로하지 않고 class에서 학습하기 직전에 형태소 분해 후 바로 yield하는 코드. 시간이 오래걸
